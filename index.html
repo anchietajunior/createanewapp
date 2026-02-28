@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="dark">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -27,8 +27,8 @@
     @keyframes fadeOut { 0% { opacity: 1; } 70% { opacity: 1; } 100% { opacity: 0; } }
   </style>
   <script>
-    if (localStorage.getItem('theme') === 'light') {
-      document.documentElement.classList.remove('dark');
+    if (localStorage.getItem('theme') === 'dark') {
+      document.documentElement.classList.add('dark');
     }
   </script>
 </head>
